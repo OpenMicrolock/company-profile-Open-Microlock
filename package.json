@@ -1,0 +1,35 @@
+{
+  "name": "folionext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@iconify/react": "6.0.2",
+    "aos": "^2.3.4",
+    "bootstrap": "5.3.8",
+    "glightbox": "3.3.1",
+    "next": "16.0.10",
+    "next-auth": "^4.24.11",
+    "react": "19.2.3",
+    "react-bootstrap": "2.10.10",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.3",
+    "react-sticky-el": "^2.1.1",
+    "react-text-typist": "^1.1.8",
+    "sass": "1.77.6",
+    "swiper": "12.0.3",
+    "usehooks-ts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "25.0.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,66 @@
+//
+// css main file
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+// Bootstrap variables
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+
+// swiper
+@import 'swiper/css/pagination';
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/autoplay';
+
+// Theme variables
+@import "variables";
+@import "variables-dark";
+
+// User variables
+@import "user-variables";
+
+// Bootstrap core
+@import "bootstrap/bootstrap";
+
+// Extended bootstrap utilities
+@import "custom/utilities";
+@import "bootstrap/utilities/api";
+
+// Extended bootstrap components
+@import "custom/accordion";
+@import "custom/breadcrumb";
+@import "custom/buttons";
+@import "custom/badge";
+@import "custom/card";
+@import "custom/dropdowns";
+@import "custom/list-group";
+@import "custom/nav";
+@import "custom/navbar";
+@import "custom/pagination";
+@import "custom/progress";
+@import "custom/reboot";
+@import "custom/tables";
+@import "custom/type";
+@import "custom/forms/form-check";
+@import "custom/forms/form-control";
+
+// Theme components 
+@import "components/general";
+@import "components/avatar";
+@import "components/animate";
+@import "components/utilities";
+@import "components/vendor/swiper-slider";
+
+// Theme dark
+@import "dark-mode";
+
+// Custom Reactjs
+@import "custom/forms/custom-react";
+
+// In this scss you can write your scss/css
+@import "user";
