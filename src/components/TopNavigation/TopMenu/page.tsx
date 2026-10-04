@@ -5,9 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Suspense, useCallback, useEffect, useState } from 'react'
 import { Collapse } from 'react-bootstrap'
-import DemosMenuDropdown from './components/DemosMenuDropdown'
-import PagesMenuDropdown from './components/PagesMenuDropdown'
-import More from './components/More'
+import ProductMenu from './components/ProductMenu'
 
 
 const loading = () => <div></div>
@@ -54,21 +52,11 @@ const TopMenuPage = ({ mobileMenuOpen }: AppMenuProps) => {
     <Collapse className="navbar-collapse" in={mobileMenuOpen}>
       <div>
         <ul className="navbar-nav navbar-nav-scroll dropdown-hover mx-auto">
-          <Suspense fallback={loading()}>
-            <DemosMenuDropdown menuItems={menuItems[0].children!} activeMenuItems={activeMenuItems} />
-          </Suspense>
-
-
-          <Suspense fallback={loading()}>
-            <PagesMenuDropdown menuItems={menuItems[1].children!} activeMenuItems={activeMenuItems} />
-          </Suspense>
-
-          <Suspense fallback={loading()}>
-            <More />
-          </Suspense>
-
-
-          <li className="nav-item"> <Link className="nav-link" href="/contact-1">Contact us</Link> </li>
+          <ProductMenu />
+          <li className="nav-item"> <Link className="nav-link" href="#docs">Docs</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="#community">Community</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="#about">About</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="#contact">Contact</Link> </li>
         </ul>
       </div>
     </Collapse>
