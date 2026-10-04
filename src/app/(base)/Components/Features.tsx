@@ -12,28 +12,28 @@ const Features = () => {
     <section className="bg-secondary position-relative overflow-hidden z-index-2 pt-6">
       <Container>
         <div className="inner-container-small text-center mb-4 mb-md-6">
-          <h2 className="mb-0">Discover the power of our online <span className="text-primary-grad">banking</span> app</h2>
+          <h2 className="mb-0">Built for <span className="text-primary-grad">smart home</span> control</h2>
         </div>
         <Row className="g-4 g-lg-5 align-items-lg-center">
           <Col md={6} lg={4} className="order-1 pe-5">
             <div className="aos d-flex justify-content-lg-end mb-4 mb-md-6" data-aos="fade-right" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="text-lg-end order-1 ms-3 ms-lg-0 me-lg-3">
-                <h6 className="mb-2">Instant money transfers</h6>
-                <p className="mb-0">Transfer money to friends, family, or businesses quickly and securely.</p>
+                <h6 className="mb-2">Lock and unlock doors</h6>
+                <p className="mb-0">Open or close a door remotely over your local Wi-Fi with a single request.</p>
               </div>
               <div className="icon-lg bg-body text-success rounded-circle flex-shrink-0 order-lg-2"><IconifyIcon icon='bi:cash-stack' className="fa-lg" /></div>
             </div>
             <div className="aos d-flex justify-content-lg-end mb-4 mb-md-6" data-aos="fade-right" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="text-lg-end order-1 ms-3 ms-lg-0 me-lg-3">
-                <h6 className="mb-2">Easy bill payments</h6>
-                <p className="mb-0">Pay utility bills, credit card bills, and more with just a few taps.</p>
+                <h6 className="mb-2">Control lamps and lights</h6>
+                <p className="mb-0">Switch lamps on and off from the app, using the same secure API.</p>
               </div>
               <div className="icon-lg bg-body text-purple rounded-circle flex-shrink-0 order-lg-2"><IconifyIcon icon='bi:receipt' className="fa-lg" /></div>
             </div>
             <div className="aos d-flex justify-content-lg-end" data-aos="fade-right" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="text-lg-end order-1 ms-3 ms-lg-0 me-lg-3">
-                <h6 className="mb-2">Real-time notifications</h6>
-                <p className="mb-0">Stay updated with real-time alerts for transactions and account activities.</p>
+                <h6 className="mb-2">Device status</h6>
+                <p className="mb-0">Check whether each lock and device is locked, unlocked, or online.</p>
               </div>
               <div className="icon-lg bg-body text-warning rounded-circle flex-shrink-0 order-lg-2"><IconifyIcon icon='bi:bell' className="fa-lg" /></div>
             </div>
@@ -45,22 +45,22 @@ const Features = () => {
             <div className="aos d-flex mb-4 mb-md-6" data-aos="fade-left" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="icon-lg bg-body text-info rounded-circle flex-shrink-0"><IconifyIcon icon='bi:person-vcard' className="fa-lg" /></div>
               <div className="ms-3">
-                <h6 className="mb-2">Account management</h6>
-                <p className="mb-0">Monitor your account balance, transaction history, and manage your finances efficiently.</p>
+                <h6 className="mb-2">Token-based access</h6>
+                <p className="mb-0">Every request is checked against a secret token, so only authorized apps can control your devices.</p>
               </div>
             </div>
             <div className="aos d-flex mb-4 mb-md-6" data-aos="fade-left" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="icon-lg bg-body text-primary rounded-circle flex-shrink-0"><IconifyIcon icon='bi:gear' className="fa-lg" /></div>
               <div className="ms-3">
-                <h6 className="mb-2">Budgeting tools</h6>
-                <p className="mb-0">Use built-in tools to set budgets, track spending, and save more effectively.</p>
+                <h6 className="mb-2">Easy Wi-Fi setup</h6>
+                <p className="mb-0">If Wi-Fi cannot be reached, the device starts its own access point so you can still configure it.</p>
               </div>
             </div>
             <div className="aos d-flex" data-aos="fade-left" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
               <div className="icon-lg bg-body text-pink rounded-circle flex-shrink-0"><IconifyIcon icon='bi:headset' className="fa-lg" /></div>
               <div className="ms-3">
-                <h6 className="mb-2">24/7 customer support</h6>
-                <p className="mb-0">Get help anytime with our dedicated customer support team, available around the clock.</p>
+                <h6 className="mb-2">Open source</h6>
+                <p className="mb-0">Read the code, build your own firmware, and contribute improvements to the project.</p>
               </div>
             </div>
           </Col>
@@ -70,7 +70,7 @@ const Features = () => {
             <div className="text-center border-end pe-sm-5 h-100">
               <Image src={reviewImg} className="h-60px mb-4" alt="review image" />
               <h4>4.5/5.0</h4>
-              <p className="mb-0">Rating by 365 users</p>
+              <p className="mb-0">Average rating from users</p>
             </div>
           </Col>
           <Col sm={6} md={4}>
@@ -87,7 +87,7 @@ const Features = () => {
             <div className="text-center h-100">
               <span className="display-6 text-primary-grad"><IconifyIcon icon='bi:people' /></span>
               <h4>86M</h4>
-              <p className="mb-0">Total members use this platform</p>
+              <p className="mb-0">Members of the OpenMicroLock community</p>
             </div>
           </Col>
         </div>

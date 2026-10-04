@@ -13,7 +13,7 @@ const Footer = () => {
       <Container className="position-relative">
         <Row className="g-4">
           <Col md={6} xl={4}>
-            <Link href="/home">
+            <Link href="/">
               <Image className="h-40px w-auto" src={logoLight} alt="logo" />
             </Link>
             <p className="my-3 my-xl-4">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
@@ -21,24 +21,22 @@ const Footer = () => {
           <Col xl={7} className="ms-auto">
             <Row className="g-4">
               <Col xs={6} md={3}>
-                <h6 className="mb-3 mb-xl-4">Company</h6>
+                <h6 className="mb-3 mb-xl-4">Navigation</h6>
                 <ul className="nav flex-column gap-1">
-                  <li className="nav-item"><Link className="nav-link pt-0" href="/about/about-v1">About us</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="contact-us.html">Contact us</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/about/career">Career <span className="badge bg-primary ms-2">2 jobs</span></Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/about/career-single">Career detail</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/contact-2">Become a partner</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="service-v1.html">Services</Link></li>
+                  <li className="nav-item"><Link className="nav-link pt-0" href="/about">About</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="/">Home</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="/community">Community</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="/documentation">Documentation</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="/contact">Contact</Link></li>
                 </ul>
               </Col>
               <Col xs={6} md={3}>
-                <h6 className="mb-3 mb-xl-4">Resources</h6>
+                <h6 className="mb-3 mb-xl-4">Product</h6>
                 <ul className="nav flex-column gap-1">
-                  <li className="nav-item"><Link className="nav-link pt-0" href="/portfolio/study1">Case studies</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/pricing-1">Pricing <span className="badge bg-success ms-2">New</span></Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/blog/blog-minimal">Blogs</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="/blog/blog-single">Blog detail</Link></li>
-                  <li className="nav-item"><Link className="nav-link" href="#">Success stories<IconifyIcon icon='bi:box-arrow-up-right' className="small ms-2" /></Link></li>
+                  <li className="nav-item"><Link className="nav-link pt-0" href="#product">Hardware</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="#product">Firmware</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="#product">DARMI App</Link></li>
+                  <li className="nav-item"><Link className="nav-link" href="#product">Integrations</Link></li>
                 </ul>
               </Col>
               <Col sm={6} md={6}>

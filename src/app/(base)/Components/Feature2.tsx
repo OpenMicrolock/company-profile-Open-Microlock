@@ -14,11 +14,11 @@ const Feature2 = () => {
       <Container>
         <Row className="align-items-lg-center">
           <Col md={6}>
-            <h2 className="mb-lg-3">Experience the future of banking today</h2>
+            <h2 className="mb-lg-3">Local control, built on open source</h2>
             <ul className="list-group list-group-borderless mb-0">
-              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Convenience at your fingertips</li>
-              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Enhanced security</li>
-              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Comprehensive financial tools</li>
+              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Control from your phone</li>
+              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Token-protected access</li>
+              <li className="list-group-item d-flex fw-semibold pb-0"><IconifyIcon icon='bi:check-circle' className="text-primary me-2" />Open hardware and firmware</li>
             </ul>
             <hr className="my-4" />
             <Row>
@@ -32,7 +32,7 @@ const Feature2 = () => {
                       <span className="h4 text-pink mb-0">%</span>
                     </div>
                   </div>
-                  <p className="mb-0">Customer satisfaction rate</p>
+                  <p className="mb-0">Local network control</p>
                 </div>
               </Col>
               <Col lg={5}>
@@ -45,7 +45,7 @@ const Feature2 = () => {
                       <span className="h4 text-success mb-0">+</span>
                     </div>
                   </div>
-                  <p className="mb-0">Serving countries worldwide</p>
+                  <p className="mb-0">Countries with community members</p>
                 </div>
               </Col>
             </Row>

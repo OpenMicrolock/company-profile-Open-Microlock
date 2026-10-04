@@ -52,11 +52,11 @@ const TopMenuPage = ({ mobileMenuOpen }: AppMenuProps) => {
     <Collapse className="navbar-collapse" in={mobileMenuOpen}>
       <div>
         <ul className="navbar-nav navbar-nav-scroll dropdown-hover mx-auto">
-          <li className="nav-item"> <Link className="nav-link" href="#about">About</Link> </li>
-          <li className="nav-item"> <Link className="nav-link" href="#community">Community</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="/about">About</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="/community">Community</Link> </li>
           <ProductMenu />
-          <li className="nav-item"> <Link className="nav-link" href="#docs">Docs</Link> </li>
-          <li className="nav-item"> <Link className="nav-link" href="#contact">Contact</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="/documentation">Docs</Link> </li>
+          <li className="nav-item"> <Link className="nav-link" href="/contact">Contact</Link> </li>
         </ul>
       </div>
     </Collapse>

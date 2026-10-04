@@ -13,7 +13,7 @@ const BlogSlider = () => {
       <Container>
         <Row className="g-4">
           <Col sm={8} lg={5}>
-            <h3 className="mb-0 text-center text-sm-start">Our latest insights</h3>
+            <h3 className="mb-0 text-center text-sm-start">Latest from OpenMicroLock</h3>
           </Col>
           <Col sm={4} lg={5} className="ms-auto">
             <div className="d-flex justify-content-center justify-content-sm-end gap-3 position-relative mt-3">

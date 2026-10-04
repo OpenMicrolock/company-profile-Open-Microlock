@@ -18,7 +18,7 @@ const Testimonials = () => {
       <Container>
         <Row className="align-items-center">
           <Col lg={4} className="text-center text-lg-start">
-            <h2 className="mb-3 mb-lg-4">Hear from our satisfied users</h2>
+            <h2 className="mb-3 mb-lg-4">What our community says</h2>
             <ul className="avatar-group align-items-center justify-content-center justify-content-lg-start mb-2">
               <li className="avatar avatar-sm">
                 <Image className="avatar-img rounded-circle" src={avatar2} alt="avatar" />
@@ -36,7 +36,7 @@ const Testimonials = () => {
                 <Image className="avatar-img rounded-circle" src={avatar6} alt="avatar" />
               </li>
             </ul>
-            <p>Rated <span className="badge bg-dark">4.9/5.0</span> by over 100.000+ users</p>
+            <p>Rated <span className="badge bg-dark">4.9/5.0</span> by community members</p>
           </Col>
           <Col lg={8} xl={7} className="ms-auto">
 

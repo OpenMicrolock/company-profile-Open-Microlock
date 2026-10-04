@@ -12,8 +12,8 @@ const Cta = () => {
       <Container>
         <Row className="g-4 align-items-center">
           <Col md={6}>
-            <h2 className="mb-4">Start your online banking today</h2>
-            <p className="mb-4">Join the millions of users who are already enjoying a smarter, simpler, and more secure way to manage their finances.</p>
+            <h2 className="mb-4">Start building with OpenMicroLock today</h2>
+            <p className="mb-4">Read the code, flash your first ESP32 lock, and connect it to the DARMI app.</p>
             <div className="d-sm-flex">
               <Link href=""> <Image src={googleImg} className="btn-transition me-4 mb-2 mb-sm-0" width={150} alt="play store" /> </Link>
               <Link href=""> <Image src={appSoreImg} className="btn-transition" width={150} alt="app-store" /> </Link>

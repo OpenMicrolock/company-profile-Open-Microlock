@@ -37,8 +37,8 @@ const Gallery = () => {
             <Image src={decorationImg} className="rotate-270 blur-8 opacity-2" alt="Grad shape" />
           </div>
           <Container className="inner-container-small text-center mb-7">
-            <h2 className="mb-4">Get a closer look at how our app works</h2>
-            <p className="mb-4"> Browse through our gallery to get a glimpse of the intuitive design and powerful features that make managing your finances effortless.</p>
+            <h2 className="mb-4">See how the DARMI app works</h2>
+            <p className="mb-4"> Browse the DARMI app screens to see how you monitor and control your locks and devices.</p>
             <div className="d-sm-flex justify-content-center">
               <Link href=""> <Image src={googleImg} className="btn-transition me-sm-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
               <Link href=""> <Image src={appImg} className="btn-transition" width={180} alt="app-store" /> </Link>

@@ -28,8 +28,8 @@ const Hero = () => {
       <Container className="position-relative pt-4 pt-sm-0 pb-8 pb-xl-9">
         <Row className="align-items-center">
           <Col lg={6}  className="mb-6 mb-lg-0">
-            <h1 className="fw-bold mb-3 mb-md-4">Smart, Secure, and Simple Banking</h1>
-            <p className="lead mb-3 mb-md-4">Experience seamless money transfers, hassle-free bill payments, and secure account management—all in one app.</p>
+            <h1 className="fw-bold mb-3 mb-md-4">Open Source Smart Lock Platform</h1>
+            <p className="lead mb-3 mb-md-4">Control doors, lamps, and other smart home devices with an ESP32-based C++ system, and monitor them from the DARMI app.</p>
             <div className="d-sm-flex mb-4 mb-lg-7">
               <Link href=""> <Image src={googlePlayImg} className="btn-transition me-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
               <Link href=""> <Image src={appStoreImg} className="btn-transition" width={180} alt="app-store" /> </Link>
@@ -52,7 +52,7 @@ const Hero = () => {
                   <Image className="avatar-img rounded-circle" src={avatar6} alt="avatar" />
                 </li>
               </ul>
-              <p className="heading-color mb-0"><span className="text-primary">5000+</span> users have downloaded our app</p>
+              <p className="heading-color mb-0"><span className="text-primary">5000+</span> people have downloaded the DARMI app</p>
             </div>
           </Col>
           <Col sm={9} lg={5} xxl={4} className="position-relative mx-auto">

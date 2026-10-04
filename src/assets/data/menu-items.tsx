@@ -11,7 +11,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
       {
         key: 'Home',
         label: 'Classic Default',
-        url: '/home',
+        url: '/',
         parentKey: 'demos',
       },
       {

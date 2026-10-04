@@ -33,41 +33,41 @@ type BlogType = {
 export const stepsData: StepsType[] = [
   {
     phase: "Phase 1",
-    title: "Sign up and secure your account",
-    description: "Create an account using your email or phone number. Complete the straightforward verification process to ensure your account is protected. Follow the simple verification process to secure your account. This ensures a personalized and seamless banking experience."
+    title: "Flash the ESP32 firmware",
+    description: "Set your Wi-Fi credentials and a secret token in the source code, then build and upload the firmware with PlatformIO."
   },
   {
     phase: "Phase 2",
-    title: "Enter your personal and financial details",
-    description: "Provide the necessary information to set up your profile. This ensures a personalized and seamless banking experience tailored to your needs. This ensures a personalized and seamless banking experience."
+    title: "Connect the lock to your network",
+    description: "The device tries your Wi-Fi first. If it cannot connect within 15 seconds, it starts its own access point."
   },
   {
     phase: "Phase 3",
-    title: "Explore the full range of banking features",
-    description: "Discover all the app’s functionalities, from instant money transfers to convenient bill payments, and start managing your finances with ease and efficiency. This ensures a personalized and seamless banking experience. Follow the simple verification process to secure your account."
+    title: "Control it from the DARMI app",
+    description: "Open the app to lock, unlock, and check status. Change the default token before you use the device in a real setting."
   }
 ]
 
 export const testimonialsData: TestimonialsType[] = [
   {
     image: team1,
-    name: 'Emma Watson',
-    description: "I've been using this app for over a year now, and it has made managing my finances so much easier. The user interface is incredibly intuitive.",
-    position: 'UI/UX Designer',
+    name: 'Community member',
+    description: "[Placeholder] Replace with a real quote from a firmware contributor.",
+    position: 'Firmware contributor',
     rating: 4.5
   },
   {
     image: team4,
-    name: 'Louis Ferguson',
-    description: "The app is fast, reliable, and customer support is always there when I need help. Highly recommended!",
-    position: 'Web Developer',
+    name: 'Community member',
+    description: "[Placeholder] Replace with a real quote from a DARMI user.",
+    position: 'DARMI user',
     rating: 4.5
   },
   {
     image: team3,
-    name: 'Jacqueline Miller',
-    description: "The budgeting tools in this app have helped me save more and spend wisely.",
-    position: 'Product designer',
+    name: 'Community member',
+    description: "[Placeholder] Replace with a real quote from a smart home builder.",
+    position: 'Smart home builder',
     rating: 5
   },
 ]
@@ -75,22 +75,22 @@ export const testimonialsData: TestimonialsType[] = [
 export const blogData : BlogType[] = [
   {
     image: blog1,
-    title: 'Tips for secure online banking',
-    description: 'Learn essential tips to keep your online banking experience safe and secure.'
+    title: 'Securing your ESP32 smart lock',
+    description: 'Learn how to change the default token and keep your lock traffic safe on a trusted network.'
   },
   {
     image: blog2,
-    title: 'The future of digital banking',
-    description: 'Explore the latest trends in digital banking and how they are shaping the future.'
+    title: 'Building an open source smart home',
+    description: 'See how the project fits together, from ESP32 firmware to the DARMI app.'
   },
   {
     image: blog3,
-    title: 'How to maximize your savings with our app',
-    description: 'Discover practical strategies to save more money using the features of our app.'
+    title: 'Connecting lamps and other devices',
+    description: 'Discover how to extend the platform to lamps, doors, and other smart home devices.'
   },
   {
     image: blog4,
-    title: 'Understanding mobile payment solutions',
-    description: 'Get a comprehensive overview of mobile payment solutions and how they work.'
+    title: 'How the local HTTP API works',
+    description: 'Get an overview of the lock, unlock, and status endpoints, and how they are authenticated.'
   },
 ]

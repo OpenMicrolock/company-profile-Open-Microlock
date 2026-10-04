@@ -12,7 +12,7 @@ const FooterOther = () => {
       <Container>
         <Row className="g-4">
           <Col ld={4}>
-            <Link className="navbar-brand me-0" href="/home">
+            <Link className="navbar-brand me-0" href="/">
               <Image className="light-mode-item navbar-brand-item h-40px" src={logo} alt="logo" />
               <Image className="dark-mode-item navbar-brand-item h-40px" src={logoLight} alt="logo" />
             </Link>

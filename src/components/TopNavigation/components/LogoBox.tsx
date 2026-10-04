@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const LogoBox = () => {
   return (
-    <Link className="navbar-brand me-0" href="/home">
+    <Link className="navbar-brand me-0" href="/">
       <Image className="light-mode-item navbar-brand-item" src={logo} alt="logo" />
       <Image className="dark-mode-item navbar-brand-item" src={logoLight} alt="logo" />
     </Link>

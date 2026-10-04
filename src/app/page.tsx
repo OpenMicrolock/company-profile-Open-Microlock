@@ -1,14 +1,19 @@
-import TopNavigationPage from '@/components/TopNavigation'
-import React from 'react'
-import Hero from './(base)/Components/Hero'
-import Features from './(base)/Components/Features'
-import Steps from './(base)/Components/Steps'
-import Feature2 from './(base)/Components/Feature2'
-import Gallery from './(base)/Components/Gallery'
-import BlogSlider from './(base)/Components/BlogSlider'
-import Testimonials from './(base)/Components/Testimonials'
-import Footer from './(base)/Components/Footer'
-import Cta from './(base)/Components/Cta'
+import type { Metadata } from 'next'
+import TopNavigationPage from "@/components/TopNavigation";
+import React from "react";
+import Hero from "./(base)/Components/Hero";
+import Features from "./(base)/Components/Features";
+import Steps from "./(base)/Components/Steps";
+import Feature2 from "./(base)/Components/Feature2";
+import Gallery from "./(base)/Components/Gallery";
+import BlogSlider from "./(base)/Components/BlogSlider";
+import Testimonials from "./(base)/Components/Testimonials";
+import Footer from "./(base)/Components/Footer";
+import Cta from "./(base)/Components/Cta";
+
+export const metadata: Metadata = {
+  title: 'OpenMicroLock | Open Source Smart Lock Platform',
+}
 
 const HomePage = () => {
   return (
@@ -24,7 +29,7 @@ const HomePage = () => {
       <Cta />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
