@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import googlePlayImg from '@/assets/images/elements/google-play.svg'
 import decorationImg from '@/assets/images/elements/grad-shape/blur-decoration-2.svg'
-import appStoreImg from '@/assets/images/elements/app-store.svg'
+import getAndroid from '@/assets/images/elements/android-download.svg'
+import getIos from '@/assets/images/elements/ios-download.svg'
 import mobileImg from '@/assets/images/mobile-app/hero.png'
 import { Col, Container, Row } from 'react-bootstrap'
 import Link from 'next/link'
@@ -24,8 +24,8 @@ const Hero = () => {
             <h1 className="fw-bold mb-3 mb-md-4">Open Source Smart Lock Platform</h1>
             <p className="lead mb-3 mb-md-4">Control doors, lamps, and other smart home devices with an ESP32-based C++ system, and monitor them from the DARMI app.</p>
             <div className="d-sm-flex mb-4 mb-lg-7">
-              <Link href=""> <Image src={googlePlayImg} className="btn-transition me-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
-              <Link href=""> <Image src={appStoreImg} className="btn-transition" width={180} alt="app-store" /> </Link>
+              <Link href=""> <Image src={getAndroid} className="btn-transition me-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
+              <Link href=""> <Image src={getIos} className="btn-transition" width={180} alt="app-store" /> </Link>
             </div>
           </Col>
           <Col sm={9} lg={5} xxl={4} className="position-relative mx-auto">
