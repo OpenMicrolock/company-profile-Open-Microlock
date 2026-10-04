@@ -3,8 +3,6 @@ import React from 'react'
 import googlePlayImg from '@/assets/images/elements/google-play.svg'
 import decorationImg from '@/assets/images/elements/grad-shape/blur-decoration-2.svg'
 import appStoreImg from '@/assets/images/elements/app-store.svg'
-import deocration2Img from '@/assets/images/mobile-app/deocration-2.jpg'
-import deocration3Img from '@/assets/images/mobile-app/deocration-3.jpg'
 import mobileImg from '@/assets/images/mobile-app/hero.png'
 import avatar2 from '@/assets/images/avatar/02.jpg'
 import avatar5 from '@/assets/images/avatar/05.jpg'
@@ -56,12 +54,6 @@ const Hero = () => {
             </div>
           </Col>
           <Col sm={9} lg={5} xxl={4} className="position-relative mx-auto">
-            <div className="position-absolute start-0 top-0 mt-6 ms-xl-n7 z-index-2 d-none d-sm-block">
-              <Image src={deocration2Img} className="aos rounded-3 shadow-primary" data-aos="zoom-in" data-aos-delay={400} data-aos-duration={800} data-aos-easing="ease-in-out" style={{ height: 80 }} alt="deocration" />
-            </div>
-            <div className="position-absolute top-50 end-0 translate-middle-y me-n6 me-xl-n8 mt-xl-n5 d-none d-sm-block">
-              <Image src={deocration3Img} className="aos rounded-3 shadow-primary" data-aos="zoom-in" data-aos-delay={600} data-aos-duration={800} data-aos-easing="ease-in-out" alt="deocration" />
-            </div>
             <Image src={mobileImg} className="aos mb-n8 mb-md-n9 mb-xxl-n8" data-aos="fade-up" data-aos-delay={100} data-aos-duration={800} data-aos-easing="ease-in-out" alt="mobile image" />
           </Col>
         </Row>
