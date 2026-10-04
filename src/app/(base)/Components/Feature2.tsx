@@ -52,12 +52,6 @@ const Feature2 = () => {
           </Col>
           <Col md={6} lg={5} className="position-relative ms-auto">
             <Image src={mobileAppImg} className="rounded-4" alt="feature image" />
-            <div className="position-absolute start-0 top-0 ms-n6 d-none d-lg-block">
-              <Image src={rocketImg} height={150} alt="rocket image" />
-            </div>
-            <div className="position-absolute bottom-0 end-0 me-lg-n5 mb-lg-n3">
-              <Image src={deocrationImg} height={70} className="shadow rounded-3 h-lg-70px" alt="decoration image" />
-            </div>
           </Col>
         </Row>
       </Container>
