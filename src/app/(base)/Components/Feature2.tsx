@@ -3,8 +3,6 @@ import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import React from 'react'
 import mobileAppImg from '@/assets/images/mobile-app/01.jpg'
-import rocketImg from '@/assets/images/elements/rocket-03.png'
-import deocrationImg from '@/assets/images/mobile-app/deocration.jpg'
 import CountUp from 'react-countup'
 import { Col, Container, Row } from 'react-bootstrap'
 
