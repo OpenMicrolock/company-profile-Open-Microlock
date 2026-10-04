@@ -12,8 +12,8 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination } from 'swiper/modules'
 import decorationImg from '@/assets/images/elements/grad-shape/blur-decoration.svg'
-import googleImg from '@/assets/images/elements/google-play.svg'
-import appImg from '@/assets/images/elements/app-store.svg'
+import getAndroid from '@/assets/images/elements/android-download.svg'
+import getIos from '@/assets/images/elements/ios-download.svg'
 import { Container } from 'react-bootstrap'
 import Link from 'next/link'
 
@@ -40,8 +40,8 @@ const Gallery = () => {
             <h2 className="mb-4">See how the DARMI app works</h2>
             <p className="mb-4"> Browse the DARMI app screens to see how you monitor and control your locks and devices.</p>
             <div className="d-sm-flex justify-content-center">
-              <Link href=""> <Image src={googleImg} className="btn-transition me-sm-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
-              <Link href=""> <Image src={appImg} className="btn-transition" width={180} alt="app-store" /> </Link>
+              <Link href=""> <Image src={getAndroid} className="btn-transition me-sm-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
+              <Link href=""> <Image src={getIos} className="btn-transition" width={180} alt="app-store" /> </Link>
             </div>
           </Container>
           <Swiper
