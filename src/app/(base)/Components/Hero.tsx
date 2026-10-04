@@ -4,11 +4,6 @@ import googlePlayImg from '@/assets/images/elements/google-play.svg'
 import decorationImg from '@/assets/images/elements/grad-shape/blur-decoration-2.svg'
 import appStoreImg from '@/assets/images/elements/app-store.svg'
 import mobileImg from '@/assets/images/mobile-app/hero.png'
-import avatar2 from '@/assets/images/avatar/02.jpg'
-import avatar5 from '@/assets/images/avatar/05.jpg'
-import avatar10 from '@/assets/images/avatar/10.jpg'
-import avatar9 from '@/assets/images/avatar/09.jpg'
-import avatar6 from '@/assets/images/avatar/06.jpg'
 import { Col, Container, Row } from 'react-bootstrap'
 import Link from 'next/link'
 
@@ -31,26 +26,6 @@ const Hero = () => {
             <div className="d-sm-flex mb-4 mb-lg-7">
               <Link href=""> <Image src={googlePlayImg} className="btn-transition me-4 mb-2 mb-sm-0" width={180} alt="play store" /> </Link>
               <Link href=""> <Image src={appStoreImg} className="btn-transition" width={180} alt="app-store" /> </Link>
-            </div>
-            <div className="d-flex align-items-center">
-              <ul className="avatar-group align-items-center justify-content-center mb-0 me-2">
-                <li className="avatar avatar-sm">
-                  <Image className="avatar-img rounded-circle" src={avatar2} alt="avatar" />
-                </li>
-                <li className="avatar avatar-sm">
-                  <Image className="avatar-img rounded-circle" src={avatar5} alt="avatar" />
-                </li>
-                <li className="avatar avatar-sm">
-                  <Image className="avatar-img rounded-circle" src={avatar10} alt="avatar" />
-                </li>
-                <li className="avatar avatar-sm">
-                  <Image className="avatar-img rounded-circle" src={avatar9} alt="avatar" />
-                </li>
-                <li className="avatar avatar-sm">
-                  <Image className="avatar-img rounded-circle" src={avatar6} alt="avatar" />
-                </li>
-              </ul>
-              <p className="heading-color mb-0"><span className="text-primary">5000+</span> people have downloaded the DARMI app</p>
             </div>
           </Col>
           <Col sm={9} lg={5} xxl={4} className="position-relative mx-auto">
