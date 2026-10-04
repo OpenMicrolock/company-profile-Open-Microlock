@@ -10,10 +10,10 @@ import Testimonials from './Components/Testimonials'
 import Footer from './Components/Footer'
 import Cta from './Components/Cta'
 
-const ApplicationShowcasePage = () => {
+const DocsPage = () => {
   return (
     <>
-      <TopNavigationPage darkButton={{ text: 'Download app', icon: 'bi:cloud-download-fill' }} />
+      <TopNavigationPage />
       <Hero />
       <Features />
       <Steps />
@@ -27,4 +27,4 @@ const ApplicationShowcasePage = () => {
   )
 }
 
-export default ApplicationShowcasePage
+export default DocsPage

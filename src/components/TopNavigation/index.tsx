@@ -2,7 +2,7 @@
 import useToggle from '@/hooks/useToggle'
 import Link from 'next/link'
 import { ReactNode, Suspense, useEffect, useRef } from 'react'
-import { ButtonProps, Container, Dropdown, DropdownMenu, DropdownToggle } from 'react-bootstrap'
+import { Container, Dropdown, DropdownMenu, DropdownToggle } from 'react-bootstrap'
 import IconifyIcon from '../wrappers/IconifyIcon'
 import CallOffcanvas from './components/CallOffcanvas'
 import CartOffcanvas from './components/CartOffcanvas'
@@ -18,7 +18,6 @@ type TopNavigationBarProps = {
   showShoppingCart?: boolean
   showFloatingSearch?: boolean
   hideThemeToggler?: boolean
-  darkButton?: { text: string; size?: ButtonProps['size']; icon: string }
   navClassName?: string
   menuProps?: Omit<AppMenuProps, 'mobileMenuOpen'>
   children?: ReactNode
@@ -36,7 +35,6 @@ const TopNavigationPage = ({
   showShoppingCart,
   navClassName,
   hideThemeToggler,
-  darkButton,
   showFloatingSearch,
   headerTheme,
   menuProps,
@@ -94,11 +92,9 @@ const TopNavigationPage = ({
 
               }
 
-              {darkButton &&
-                <li className="nav-item ms-2 d-none d-sm-block">
-                  <Link href="" onClick={callToggle} className="btn btn-sm btn-dark mb-0" data-bs-toggle="offcanvas" data-bs-target="#scheduleCall" aria-controls="scheduleCall"><IconifyIcon icon={darkButton.icon} className="me-2" />{darkButton.text}</Link>
-                </li>
-              }
+              <li className="nav-item ms-2 d-none d-sm-block">
+                <Link href="" onClick={callToggle} className="btn btn-sm btn-dark mb-0" data-bs-toggle="offcanvas" data-bs-target="#scheduleCall" aria-controls="scheduleCall"><IconifyIcon icon="bi:rocket-takeoff-fill" className="me-2" />Get Started</Link>
+              </li>
 
               {
                 showSearchInput &&

@@ -6,29 +6,29 @@
 // Uncomment below code and change primary color to your brand color
 
  
-// $primary:      #1d9bbe; // This color will apply to light mode and dark mode. To add different types of dark mode primary color, go to _user.scss file and follow the instruction.
+$primary:      #2373F4; // This color will apply to light mode and dark mode. To add different types of dark mode primary color, go to _user.scss file and follow the instruction.
 // $secondary:    #eff2f6;
 
-// // theme colors map
-// $theme-colors: ();
-// $theme-colors: map-merge(
-//   (
-//     "primary":    $primary,
-//     "white":      $white,
-//     "secondary":  $secondary,
-//     "success":    $success,
-//     "info":       $info,
-//     "warning":    $warning,
-//     "danger":     $danger,
-//     "pink":       $pink,
-//     "purple":     $purple,
-//     "light":      $light,
-//     "dark":       $dark
-//   ),
-//   $theme-colors
-// );
+// theme colors map
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "white":      $white,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "pink":       $pink,
+    "purple":     $purple,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
 
-// $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 // //Theme gradient Colors - Starting and ending point
 // $grad-primary-start:      #077796;

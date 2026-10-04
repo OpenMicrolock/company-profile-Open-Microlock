@@ -64,7 +64,7 @@ $color-contrast-dark:      $black;
 $color-contrast-light:     $white;
 
 
-$primary:     #5F41FB; // To change dark mode primary color go to user.scss file and follow the instruction
+$primary:     #2373F4; // To change dark mode primary color go to user.scss file and follow the instruction
 $secondary:   $gray-200;
 $success:     $green;
 $info:        $cyan;
@@ -128,8 +128,8 @@ $dark-border-subtle:      tint-color($dark, 60%);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 //Theme gradient Colors - Starting and ending point
-$grad-primary-start:      #543DE7;
-$grad-primary-end:        #7F39F8;
+$grad-primary-start:      #1D55C9;
+$grad-primary-end:        #4A90F8;
 
 $grad-secondary-start:      rgba(240,150,255,0.15);
 $grad-secondary-center:     rgba(191,200,252,0.15);
