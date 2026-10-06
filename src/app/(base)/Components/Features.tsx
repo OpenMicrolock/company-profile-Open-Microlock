@@ -65,7 +65,7 @@ const Features = () => {
             </div>
           </Col>
         </Row>
-        <div className="inner-container row g-4 mt-6 mt-md-8" data-aos="zoom-in" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
+        {/* <div className="inner-container row g-4 mt-6 mt-md-8" data-aos="zoom-in" data-aos-delay={100} data-aos-duration={1000} data-aos-easing="ease-in-out">
           <Col sm={6} md={4}>
             <div className="text-center border-end pe-sm-5 h-100">
               <Image src={reviewImg} className="h-60px mb-4" alt="review image" />
@@ -90,7 +90,7 @@ const Features = () => {
               <p className="mb-0">Members of the OpenMicroLock community</p>
             </div>
           </Col>
-        </div>
+        </div> */}
       </Container>
     </section>
   )
